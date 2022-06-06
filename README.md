@@ -28,13 +28,13 @@
 * использование проводов может повлечь к потерям полезной информации, стоит посмотрет в сторону беспроводных каналов связи
 * объединение в группы крайне желательно. Таким образом при потере связи в мастером, локальный контроллер может локально хранить данные и при появлении разом отправить их
 * потенциальные протоколы для использования:
-  * Modbus [статья на хабре с использованием в ардуино] (https://habr.com/ru/post/249043/)
+  * Modbus [статья на хабре с использованием в ардуино](https://habr.com/ru/post/249043/)
     * де-факто стандарт в M2M
     * не очень сложный в реализации
     * возможно оверкилл для такой простой системы
     * имеет несколько стандартов для применения в различных физических интерфейсах(TCP/IP, RS-485)
     * *необходима ручная настройка записи/чтения из регистров*
-  * MQTT [реализация протокола в ардуино] (https://docs.arduino.cc/tutorials/uno-wifi-rev2/uno-wifi-r2-mqtt-device-to-device)
+  * MQTT [реализация протокола в ардуино](https://docs.arduino.cc/tutorials/uno-wifi-rev2/uno-wifi-r2-mqtt-device-to-device)
     * распространен в IoT
     * прост в реализации
     * поддерживается многими устройствами
@@ -59,5 +59,5 @@
 
 * [Работа с цифровыми входами/выходами Ардуино](https://www.youtube.com/watch?v=3UwgMAdV4xQ)
 * [Плейлист с обучением по Ардуино](https://youtube.com/playlist?list=PLgAbBhxTglwmVxDDC5TSYUI91oZ0LZQMw)
-* [Видео с работой конкретного термометра DS18B20 и Ардуино] (https://youtu.be/FBLr_v8Q260)
-* [Статья о реализации MQTT на ардуино] (https://microkontroller.ru/esp8266-projects/podklyuchenie-nodemcu-esp8266-k-mqtt-brokeru-s-pomoshhyu-arduino-ide/)
+* [Видео с работой конкретного термометра DS18B20 и Ардуино](https://youtu.be/FBLr_v8Q260)
+* [Статья о реализации MQTT на ардуино](https://microkontroller.ru/esp8266-projects/podklyuchenie-nodemcu-esp8266-k-mqtt-brokeru-s-pomoshhyu-arduino-ide/)
